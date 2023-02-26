@@ -1,0 +1,23 @@
+{
+  "name": "unb_module-10_team-profile-generator_ren-besson",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renbesson/unb_module-10_team-profile-generator_ren-besson.git"
+  },
+  "author": "Ren Besson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renbesson/unb_module-10_team-profile-generator_ren-besson/issues"
+  },
+  "homepage": "https://github.com/renbesson/unb_module-10_team-profile-generator_ren-besson#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
