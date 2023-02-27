@@ -1,6 +1,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const questions = require('./src/questions');
+const Employee = require('./lib/Employee');
 
 const init = async () => {
   try {
@@ -11,12 +12,8 @@ const init = async () => {
   }
 };
 
-init();
+//init();
 
-class Employee {
-  constructor(name, id, email) {
-    this.name = name;
-    this.id = id;
-    this.email = email;
-  }
-}
+const newEmployee = new Employee('joao silva', 21212, 'joao.silva@email.com.br');
+
+console.log(newEmployee.getName());
